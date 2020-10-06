@@ -30,15 +30,19 @@ Frameworks/bibliotecas
 O site é dividido em quatro páginas principais para o usuário, nelas será possível realizar todas as ações necessárias para organizar os orçamentos da oficina.
 
 Página inicial
+
 ![image](https://user-images.githubusercontent.com/42790322/95242541-b32e6700-07e5-11eb-9dfc-6c24d7a9b0b3.png)
 
 Lista com todos os orçamentos
+
 ![image](https://user-images.githubusercontent.com/42790322/95242808-16b89480-07e6-11eb-8552-9ece1d343e88.png)
 
 Formulário de cadastro
+
 ![image](https://user-images.githubusercontent.com/42790322/95243162-99d9ea80-07e6-11eb-9424-1b9a4b6c913b.png)
 
 Formulário de edição
+
 ![image](https://user-images.githubusercontent.com/42790322/95242965-4f586e00-07e6-11eb-8bbd-a55b083fca84.png)
 
 
@@ -49,7 +53,7 @@ Para navegação do site é necessário utilizar os botões e filtros inseridos,
 
 Para executar o projeto de forma local é de suma importância:
 
-- Laravel e suas dependências.
+- Laravel e suas dependências;
 - Extensão do php, html5 e css (utilizei a versão 7.4 do php);
 - Banco de dados (de preferência phpMyAdmin);
 - Ter o php em seu pacote de variáveis;
