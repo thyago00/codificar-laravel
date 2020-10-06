@@ -49,17 +49,17 @@ Para navegação do site é necessário utilizar os botões e filtros inseridos,
 
 Para executar o projeto de forma local é de suma importância:
 
-Laravel e suas dependências
-Extensão do php, html5 e css (utilizei a versão 7.4 do php);
-Banco de dados (de preferência phpMyAdmin);
-Ter o php em seu pacote de variáveis;
-Um editor de texto ou uma IDE (de preferência o visual studio code);
-O servidor apache para o host local.
+- Laravel e suas dependências.
+- Extensão do php, html5 e css (utilizei a versão 7.4 do php);
+- Banco de dados (de preferência phpMyAdmin);
+- Ter o php em seu pacote de variáveis;
+- Um editor de texto ou uma IDE (de preferência o visual studio code);
+- O servidor apache para o host local.
 
 Os links para baixar tais ferramentas.
-https://www.apachefriends.org/pt_br/download.html
-https://code.visualstudio.com/download
-https://laravel.com/docs/8.x/installation
+- https://www.apachefriends.org/pt_br/download.html
+- https://code.visualstudio.com/download
+- https://laravel.com/docs/8.x/installation
 
 As demais bibliotecas/ferramentas já estão importadas no próprio código, não sendo necessário baixá-las ou realizar qualquer alteração.
 Para uma melhor visibilidade do site, recomendo utilizar o google chrome para testá-lo.
