@@ -1,61 +1,67 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+Descrição
+Para participar do processo seletivo eu escolhi resolver o exercício número 1. O objetivo do exercício é a criação de um CRUD para facilitar o manuseamento de dados de uma oficina e monitorar seus orçamentos que antes eram controlados por meio de papel e caneta, fazendo assim com que eles perdessem muitas vendas.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Ferramentas
+Para a realização do exercício eu utilizei as seguintes ferramentas:
 
-## About Laravel
+Visual Studio Code - Editor de código.
+Xampp - Para testar o site através de um servidor local com o apache e o banco de dados através do phpMyAdmin.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+as linguagens utilizadas foram:
+PHP - Realizar a busca dos dados, conectar com o banco de dados e ações de server-side;
+Javascript - Dinamizar o datatable e as mensagens do SweetAlert;
+SQL - Utilizado para criar o banco.
+linguagem de marcação:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+HTML5 - Criar as páginas;
+folha de estilo:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+CSS3 - Estilizar as páginas, utilizado apenas para posicionar alguns elementos ou realizar alterações básicas.
 
-## Learning Laravel
+Frameworks/bibliotecas
+Laravel 
+Bootstrap - Utilizado para estilizar as páginas.
+Datatable - Bibliotecas do datatable para a criação da tabela e demais alterações na mesma.
+Jquery - dinamizar a tabela e para criação dos filtros.
+SweetAlert - Retornar mensagens mais "intimistas" para o usuário após alguma ação.
+FontAwesome - ícones para deixar o site mais intuitivo e facilitar a utilização pelo usuário.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Modo de Funcionamento
+O site é dividido em 3 páginas principais para o usuário, nelas será possível realizar todas as ações necessárias para organizar os orçamentos da oficina.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+index
 
-## Laravel Sponsors
+Essa é a tela principal do site. Nela é possível pesquisar os dados apresentados na tabela e através dos botões presentes na mesma é possível realizar as outras ações do CRUD.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+O botão "Novo orçamento" irá redirecionar para a pagina "cadastro.php", tela onde será realizado os cadastros de novos orçamentos.
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
+O botão "Deletar" retornará uma mensagem para o usuário realizar o delete.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+O botão "Editar" irá redirecionar para a página "alterar.php", esta tela terá todos os dados do orçamento a ser alterado e o usuário terá livre acesso para editar qualquer informação presente.
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Além dessas páginas, existem outras files no projeto que não são vistas diretamente pelo usuário final, são elas:
 
-## License
+Para navegação do site é necessário utilizar os botões e filtros inseridos, para realizar as ações do CRUD, e responder as mensagens de retorno para cada ação.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Necessidades para execução do projeto
+Para facilitar a correção do teste, o site foi hospedado no seguinte link:
+https://testethyago.000webhostapp.com/
+
+Para executar o projeto de forma local é de suma importância:
+
+Extensão do php, html5 e css (utilizei a versão 7.4 do php);
+Banco de dados (de preferência phpMyAdmin);
+Ter o php em seu pacote de variáveis;
+Um editor de texto ou uma IDE (de preferência o visual studio code);
+O servidor apache para o host local.
+Os links para baixar tais ferramentas.
+
+Xampp
+Visual Studio Code
+As demais bibliotecas/ferramentas já estão importadas no próprio código, não sendo necessário baixá-las ou realizar qualquer alteração.
+Para uma melhor visibilidade do site, recomendo utilizar o google chrome para testá-lo.
