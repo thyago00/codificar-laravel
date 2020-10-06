@@ -31,6 +31,8 @@ O site é dividido em 3 páginas principais para o usuário, nelas será possív
 
 index
 
+![image](https://user-images.githubusercontent.com/42790322/95242541-b32e6700-07e5-11eb-9dfc-6c24d7a9b0b3.png)
+
 Essa é a tela principal do site. Nela é possível pesquisar os dados apresentados na tabela e através dos botões presentes na mesma é possível realizar as outras ações do CRUD.
 
 O botão "Novo orçamento" irá redirecionar para a pagina "cadastro.php", tela onde será realizado os cadastros de novos orçamentos.
