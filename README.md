@@ -29,8 +29,7 @@ Frameworks/bibliotecas
 ## Modo de Funcionamento
 O site é dividido em quatro páginas principais para o usuário, nelas será possível realizar todas as ações necessárias para organizar os orçamentos da oficina.
 
-Página inicial
-
+Página inicial <br>
 ![image](https://user-images.githubusercontent.com/42790322/95242541-b32e6700-07e5-11eb-9dfc-6c24d7a9b0b3.png)
 
 Lista com todos os orçamentos
@@ -66,4 +65,4 @@ Os links para baixar tais ferramentas.
 - https://laravel.com/docs/8.x/installation
 
 As demais bibliotecas/ferramentas já estão importadas no próprio código, não sendo necessário baixá-las ou realizar qualquer alteração.
-Para uma melhor visibilidade do site, recomendo utilizar o google chrome para testá-lo.
+Para uma melhor visibilidade do site, recomendo utilizar o opera ou google chrome através do localhost.
