@@ -29,9 +29,19 @@ FontAwesome - ícones para deixar o site mais intuitivo e facilitar a utilizaç�
 Modo de Funcionamento
 O site é dividido em 3 páginas principais para o usuário, nelas será possível realizar todas as ações necessárias para organizar os orçamentos da oficina.
 
-index
+Página inicial
 
 ![image](https://user-images.githubusercontent.com/42790322/95242541-b32e6700-07e5-11eb-9dfc-6c24d7a9b0b3.png)
+
+Lista com todos os orçamentos
+![image](https://user-images.githubusercontent.com/42790322/95242808-16b89480-07e6-11eb-8552-9ece1d343e88.png)
+
+Formulário de cadastro
+![image](https://user-images.githubusercontent.com/42790322/95242965-4f586e00-07e6-11eb-8bbd-a55b083fca84.png)
+
+
+Formulário de edição
+![image](https://user-images.githubusercontent.com/42790322/95242965-4f586e00-07e6-11eb-8bbd-a55b083fca84.png)
 
 Essa é a tela principal do site. Nela é possível pesquisar os dados apresentados na tabela e através dos botões presentes na mesma é possível realizar as outras ações do CRUD.
 
